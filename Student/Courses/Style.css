@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar-content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#navbar-content ul {
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 30px;
+}
+
+#navbar-content ul li {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    color: #01B7FF;
+}
+
+#navbar-content ul li a{
+    text-decoration: none;
+    color: #01B7FF;
+}
+
+/* #logo{
+} */
+
+#logo img {
+    width: 120px;
+    height: 70px;
+}
+
+/* Side Menu bar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: #9cdcf5; */
+    background-image: linear-gradient(65deg, #5eb5e8, #93f1df);
+    padding: 0 10px;
+    height: 40px;
+}
+
+#side-profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 10px;
+    margin: auto;
+}
+
+#side-profile img {
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#side-profile-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#side-profile-content h2,
+p {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.Side-nav {
+    /* background-color: #9cdcf5; */
+    background-image: linear-gradient(65deg,rgb(107 178 249), rgb(158, 245, 300));
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.Side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.Side-nav a:hover {
+    color: #f1f1f1;
+}
+
+.Side-nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    transition: margin-left .5s;
+    padding: 20px;
+    color: oldlace;
+}
+
+/* Course-Section */
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Section-title {
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 57px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.course-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+#course-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 2px solid black;
+    box-shadow: 10px;
+    width: 303px;
+}
+
+#course-container a{
+    text-decoration: none;
+}
+
+#course-container img {
+    width: 100%;
+    height: 150px;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#course-content h2,
+p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: lightgray;
+}
+
+#myBar {
+    width: 50%;
+    height: 10px;
+    background-color: green;
+}
+
+/* Calender */
+#calender-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#calender-section iframe {
+    margin-left: 65px;
+}
+
+#CN-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+/* Notice Board Section */
+
+.card {
+    /* background-color: #9cdcf5; */
+    background-image: linear-gradient(80deg, #54b3e0, transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 369px;
+    height: 300px;
+}
+
+.card ul li {
+    padding: 3px;
+    list-style-type: square;
+    font-family: 'Prociono', serif;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    background-color: black;
+}

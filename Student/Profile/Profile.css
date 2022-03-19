@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Profile-container{
+    display: flex;
+    min-width: 600px;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+.Profile-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+.Profile-image{
+    margin: auto;
+    padding: 5px;
+}
+
+.Profile-image img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.Profile-content{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+div-cont{
+    display: flex;
+    flex-direction: column;
+    padding: 5px ;
+}
+
+input{
+    min-width: 300px;
+    padding: 10px;
+}

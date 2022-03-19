@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar-content ul li{
+    color: black;
+    font-weight: bolder;
+}
+
+#navbar-content ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-content ul li a:hover{
+    color:#15F301;
+    font-size: 20px;
+}
+
+nav, hr{
+    /* background: #15F301 ; */
+    background-image: linear-gradient(45deg, #15F301,#0e8d0a, #000000f2);
+}
+
+.Side-nav{
+    background-image: linear-gradient(65deg,#99FF9F, rgba(159, 252, 167, 0.94));
+}
+
+#main{
+    color: black;
+}
+
+.Section-Container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+
+#courses{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: max-content;
+    background: #99FF9F 94%;
+    padding: 3px;
+}
+
+#courses div{
+    /* display: block; */
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.courses{
+    width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+.drop-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.dropdown{
+    background-color: blueviolet;
+    width: 60px;
+}
+
+.drop-content{
+    display: none;
+    background-color: darkcyan;
+}
+
+.drop-content a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+#course-cont{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    width: 880px;
+    /* padding: 15px; */
+    background-color: aliceblue;
+    margin: 15px 0px;
+}
+
+.course-container{
+    display: flex;
+    flex-direction : column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* width: 880px;
+    padding: 15px; */
+    background-color: aliceblue;
+    /* margin: 15px; */
+}
+
+.module-edit{
+    background: whitesmoke;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#courses div h5{
+    /* background-color: aliceblue;
+    margin: 3px;
+    height: 60px;
+    padding: 10px; */
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#card{
+    background:  #99FF9F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+}
+
+#info h2{
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+#info img{
+    width: 120px;
+    height: 120px;
+    margin: 10px 80px;
+}
+
+p{
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer p{
+    text-align: center;
+}

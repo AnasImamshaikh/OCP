@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar-content ul li{
+    color: black;
+    font-weight: bolder;
+}
+
+#navbar-content ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar-content ul li a:hover{
+    color: #004aab;
+    font-size: 20px;
+}
+
+nav, hr{
+    background: #00aba9;
+    background-image: linear-gradient(20deg, #00aba9,#0084ff, #000000f2);
+}
+
+.Side-nav{
+    background-image: linear-gradient(65deg,#00aba9, rgba(254, 250, 156, 0.94));
+}
+
+#main{
+    color: black;
+}
+
+.Section-Container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+
+#courses{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: max-content;
+    /* background: #FEFA9C 94%; */
+    background-image: linear-gradient(
+        209deg
+        , #3664fa, #000000);
+    padding: 0px 15px;
+    min-height: 600px;
+}
+
+.courses{
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+.drop-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.dropdown{
+    background-color: blueviolet;
+    width: 60px;
+}
+
+.drop-content{
+    display: none;
+    background-color: darkcyan;
+}
+
+.drop-content a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.course-cont{
+    /* display: flex;
+    justify-content: space-between; */
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    /* background-color: rgb(31, 137, 230); */
+}
+
+/* .modules{
+    margin: 5px;
+} */
+
+.course-container{
+    display: block;
+    background-color: rgb(219, 201, 35);
+    min-width: 400px;
+    box-shadow: none;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.module-edit{
+    background: whitesmoke;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#courses div a h5{
+    /* background-color: aliceblue;
+    margin: 3px;
+    height: 60px;
+    padding: 10px; */
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#em-4{
+    background-color: #15F301;
+}
+
+#py{
+    background-color: #FA5586;
+}
+
+#Aoa{
+    background-color: #FFF73F;
+}
+
+#os{
+    background-color: #C033F2;
+}
+
+#dbms{
+    background-color: #4BFB91;
+}
+
+#mp{
+    background-color: #7CFFFF;
+}
+
+p{
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer p{
+    text-align: center;
+}
